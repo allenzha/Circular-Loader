@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/style.css" media="screen"/>
+	
+	<!-- jQuery Library-->
+	<script src="js/jQuery.min.js"></script>
+	
+	<script src="js/jquery.circularLoader.js"></script>
+	
+	<script>
+	
+	jQuery(document).ready(function($){
+
+		$('#canvas').CircularLoader( 12, {
+			speed	: 500
+		} );
+		
+		$('#canvas').CircularLoader( 40 );
+		
+		$('#canvas').CircularLoader( 61 );
+		
+		$('#canvas').CircularLoader( 100 );
+	
+	});
+	
+	</script>
+
+	<title>Circular Loader</title>
+</head>
+<body>
+	
+	<canvas id="canvas" width="110" height="110"></canvas>
+	
+</body>
+</html>

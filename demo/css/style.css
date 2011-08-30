@@ -1,0 +1,19 @@
+/* - - - - - - - - - - - - - - - - - - - - */
+/* Reset
+/* - - - - - - - - - - - - - - - - - - - - */
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, form, input, textarea, img, blockquote, iframe, code, pre{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+body{
+	background: #e6e5de;
+}
+
+#canvas{
+	display: block;
+	margin: 30% auto 0;
+}
