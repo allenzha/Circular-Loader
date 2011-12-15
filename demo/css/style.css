@@ -10,7 +10,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, form, input, textarea, 
 }
 
 body{
-	background: #e6e5de;
+	background: url(../img/bg.jpg) repeat 0 0 #f1f0e9;
 }
 
 #canvas{
